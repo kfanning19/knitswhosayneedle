@@ -1,0 +1,26 @@
+{
+  "name": "knitswhosayneedle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfanning19/knitswhosayneedle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kfanning19/knitswhosayneedle/issues"
+  },
+  "homepage": "https://github.com/kfanning19/knitswhosayneedle#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.0",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.9.0"
+  }
+}

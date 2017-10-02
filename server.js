@@ -22,8 +22,6 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 
-var controller = require("./controllers/scraper.js")(app);
-
 
 app.listen(3000, function() {
   console.log("App running on port 3000!");
