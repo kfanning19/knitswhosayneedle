@@ -16,7 +16,7 @@ rav_link:"https://www.ravelry.com/patterns/library/amphitryon"
 {name: "Blackberry Leaves",
 craft: "knitting",
 pay: "paid",
-cost:"$4.00 USD"
+cost:"$4.00 USD",
 yarn_name: "Knit Picks Comfy Fingering",
 yarn_weight: "Fingering",
 category: "scarf",
@@ -31,7 +31,7 @@ rav_link:"https://www.ravelry.com/patterns/library/blackberry-leaves"
 {name: "Calamistrata",
 craft: "knitting",
 pay: "paid",
-cost: "$4.00 USD"
+cost: "$4.00 USD",
 yarn_name: "Malabrigo Merino Worsted",
 yarn_weight: "Worsted",
 category: "scarf",
@@ -46,7 +46,7 @@ rav_link:"https://www.ravelry.com/patterns/library/calamistrata"
 {name: "Camden",
 craft: "knitting",
 pay: "paid",
-cost: "$4.00 USD"
+cost: "$4.00 USD",
 yarn_name: "Knit Picks Stroll Sport",
 yarn_weight: "Sport",
 category: "clothes",
@@ -57,6 +57,20 @@ description:"",
 pictures:[],
 cart:'http://www.ravelry.com/purchase/knits-who-say-needle/196020',
 rav_link:"https://www.ravelry.com/patterns/library/camden-3"
+},
+{name: "Crooked Cable Cap",
+craft: "knitting",
+pay: "free",
+yarn_name: "Cascade Heritage Solids",
+yarn_weight: "Fingering",
+category: "hat",
+needles: ["US Size 2", "US Size 3"],
+yardage: "120-220 yards",
+size:"Women's S/M & M/L",
+description:"",
+pictures:[],
+cart:'http://www.ravelry.com/purchase/knits-who-say-needle/196020',
+rav_link:"https://www.ravelry.com/patterns/library/crooked-cable-cap"
 },
 ]
 module.exports=patterns;
