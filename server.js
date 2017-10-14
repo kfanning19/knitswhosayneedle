@@ -2,7 +2,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var logger = require("morgan");
-
+var port = process.env.PORT || 3000;
 // Initialize Express
 var app = express();
 
@@ -21,8 +21,9 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
+require("./routes.js")(app);
 
 
-app.listen(3000, function() {
+app.listen(port, function() {
   console.log("App running on port 3000!");
 });
